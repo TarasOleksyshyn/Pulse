@@ -1,46 +1,46 @@
 .feed {
-  &__wraper {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15px;
-  }
-  &__item {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 60px;
-  }
-  &_photo {
-    width: 169px;
-    height: 169px;
-    img {
-      width: 100%;
-    }
-  }
-  &__post {
-    max-width: 680px;
-    margin-left: 25px;
-    p {
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      span {
-        font-family: 'MuseoModerno';
-      }
-    }
-  }
-  &__login {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 0;
-  }
-  &__success {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 14px;
-    color: #646464;
-    margin-bottom: 10px;
-    vertical-align: top;
-  }
+	&__wraper {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 15px;
+	}
+	&__item {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		margin-top: 60px;
+	}
+	&_photo {
+		width: 169px;
+		height: 169px;
+		img {
+			width: 100%;
+		}
+	}
+	&__post {
+		max-width: 680px;
+		margin-left: 25px;
+		p {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 24px;
+			span {
+				font-family: 'MuseoModerno';
+			}
+		}
+	}
+	&__login {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 0;
+	}
+	&__success {
+		display: inline-block;
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+		margin-bottom: 10px;
+		vertical-align: top;
+	}
 }

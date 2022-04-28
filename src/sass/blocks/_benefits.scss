@@ -1,33 +1,33 @@
 .benefits {
-  background-color: #F6F6F6;
-  min-height: 470px;
-  padding: 70px 0 64px;
-  &__wraper {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  &__item {
-    width: 270px;
-    margin-bottom: 50px;
-  }
-  &__title {
-    font-weight: 700;
-    font-size: 18px;
-    margin-top: 35px;
-  }
-  &__description {
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  &__link {
-    font-family: 'MuseoModerno', cursive;
-    color: $main-color;
-    &:hover {
-      color: $main-color;
-    }
-  }
+	background-color: #F6F6F6;
+	min-height: 470px;
+	padding: 70px 0 64px;
+	&__wraper {
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-evenly;
+		text-align: center;
+		flex-wrap: wrap;
+	}
+	&__item {
+		width: 270px;
+		margin-bottom: 50px;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 18px;
+		margin-top: 35px;
+	}
+	&__description {
+		font-weight: 300;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	&__link {
+		font-family: 'MuseoModerno', cursive;
+		color: $main-color;
+		&:hover {
+			color: $main-color;
+		}
+	}
 }
