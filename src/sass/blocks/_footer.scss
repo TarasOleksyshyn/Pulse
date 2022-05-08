@@ -10,13 +10,15 @@
 		top: 0;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 460px;
+		max-width: 460px;
+		width: 100%;
+    min-width: 280px;
 		height: 250px;
 		background: #C70101;
 	}
 	&__addres {
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 19px;
 		line-height: 20px;
 		color: $text-color;
 	}

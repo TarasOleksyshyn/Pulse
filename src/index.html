@@ -27,7 +27,7 @@
 					</div>
 					<div class="header__contacts">
 						<a href="tel:+380979228974" class="header__phone">+380 (97) 922-89-74</a>
-						<button class="button">заказать звонок</button>
+						<button class="button" data-modal="consultation">заказать звонок</button>
 					</div>
 				</header>
 				<div class="promo__wraper">
@@ -49,7 +49,7 @@
 							Ответим на все вопросы
 						</div>
 					</div>
-					<button class="button button_main">заказать консультацию</button>
+					<button class="button button_main" data-modal="consultation">заказать консультацию</button>
 					<div class="promo__link">
 						или
 						<a href="#">перейти в каталог</a>
@@ -95,7 +95,7 @@
 					Просто заполните форму заявки <br>
 					и мы перезвоним вам в течении 10 минут
 				</div>
-				<form action="#" class="feed-form">
+				<form action="#" class="feed-form" id="consultation-form">
 					<label for="name">
 						<input
 							class="feed-form__input"
@@ -111,7 +111,6 @@
 							type="tel"
 							name="phone"
 							id="phone"
-							placeholder="Ваш телефон"
 						>
 					</label>
 					<label for="email">
@@ -132,13 +131,13 @@
 			<div class="container">
 				<div class="slider__inner">
 					<div>
-						<img src="img/slider/slide-1.jpg" alt="slide-1">
+						<img class="slider__img" src="img/slider/slide-1.jpg" alt="slide-1">
 					</div>
 					<div>
-						<img src="img/slider/slide-2.jpg" alt="slide-1">
+						<img class="slider__img" src="img/slider/slide-2.jpg" alt="slide-1">
 					</div>
 					<div>
-						<img src="img/slider/slide-3.jpg" alt="slide-1">
+						<img class="slider__img" src="img/slider/slide-3.jpg" alt="slide-1">
 					</div>
 				</div>
 			</div>
@@ -605,7 +604,7 @@
 
 						<div class="feed__post">
 							<h3 class="feed__login">Иван Словенин</h3>
-							<span class="feed__success">1 полумарафона</span>
+							<span class="feed__success">1 полумарафон</span>
 							<p>
 								Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал.
 							</p>
@@ -693,10 +692,8 @@
 					<label for="phone">
 						<input
 							class="feed-form__input"
-							type="tel"
 							name="phone"
 							id="phone"
-							placeholder="Ваш телефон"
 						>
 					</label>
 					<label for="email">
@@ -737,10 +734,8 @@
 					<label for="phone">
 						<input
 							class="feed-form__input"
-							type="tel"
 							name="phone"
 							id="phone"
-							placeholder="Ваш телефон"
 						>
 					</label>
 					<label for="email">
@@ -775,6 +770,8 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
